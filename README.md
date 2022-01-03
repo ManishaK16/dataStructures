@@ -24,5 +24,29 @@ Area = min(a[1], a[8]) * (8 - 1)
  
  malloc alloc returns a void pointer so they allocate memory at runtime 
  
+ # linked list
+ single linked list navigation forward only : data and link == node
+ doubly linked list  both ways
+ circularly linked list
  
+ # merge sort                      
+ struct code {    
+  int i 
+  
+  char c
+  
+  struct code *ptr}   
+  
+  int main() {
+  
+  struct code varI
+  
+  varI.i = 3
+  
+  VarI.c = 'A'
+  
+  varI.ptr = null
+  
+   we can access a fun in main function like ths
+  
  
