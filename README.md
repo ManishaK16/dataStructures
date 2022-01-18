@@ -46,7 +46,27 @@ Area = min(a[1], a[8]) * (8 - 1)
   VarI.c = 'A'
   
   varI.ptr = null
-  
-   we can access a fun in main function like ths
+  we can access a fun in main function like ths
+   ------------------------------------------------------------
+   import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        int n = 4;
+        int m = 5;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                if(i==1 || j==1|| i == n || j==m){
+                System.out.print("*");
+                }else{
+                    System.out.print(" "); we need to give space
+                
+                }
+            }
+            System.out.println();
+        }
+        
+    }
+}
+   
   
  
